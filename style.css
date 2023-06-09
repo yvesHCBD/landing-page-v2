@@ -1,3 +1,37 @@
 body {
+  display: flex;
+  flex-direction: column;
   background-color: #1f2937;
+  margin: 0;
+}
+
+.header-container,
+.information-container,
+.quote-container,
+.sign-up-container {
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+}
+
+.information-container {
+  background-color: white;
+}
+
+.quote-container {
+  background-color: #e5e7eb;
+}
+
+.sign-up-container {
+  background-color: white;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  color: white;
+  background-color: #1f2937;
+  font-size: 12px;
 }
