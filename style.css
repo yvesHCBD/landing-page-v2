@@ -110,7 +110,7 @@ body {
 .square-containers p {
   text-align: center;
   width: 150px;
-  margin: 2px;
+  margin: 6px;
   margin-left: 16px;
   margin-right: 16px;
 }
@@ -125,7 +125,27 @@ body {
 }
 
 .quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   background-color: #e5e7eb;
+}
+
+.THE-quote {
+  height: 250px;
+  width: 750px;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 36px;
+  font-style: italic;
+  font-family: monospace;
+}
+
+.quoter {
+  margin-left: 36%;
+  font-family: arial;
 }
 
 .sign-up-container {
