@@ -149,7 +149,39 @@ body {
 }
 
 .sign-up-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: white;
+}
+
+.CTA-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35%;
+  width: 50%;
+  border-radius: 6px;
+  color: white;
+  background-color: #3882f6;
+  gap: 81px;
+}
+
+.CTA-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.CTA-text-container h4,
+.CTA-text-container p {
+  margin: 0;
+}
+
+.CTA-container .sign-up {
+  border: 1px solid white;
+  height: 25px;
 }
 
 .footer-container {
