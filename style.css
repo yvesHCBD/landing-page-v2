@@ -99,14 +99,6 @@ body {
   display: flex;
 }
 
-/* .square-containers { */
-/*   display: flex; */
-/*   flex-direction: column; */
-/*   border-radius: 8px; */
-/*   margin-left: 16px; */
-/*   margin-right: 16px; */
-/* } */
-
 .square-containers p {
   text-align: center;
   width: 150px;
@@ -157,10 +149,10 @@ body {
 
 .CTA-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  height: 35%;
-  width: 50%;
+  height: 30%;
+  width: 66%;
   border-radius: 6px;
   color: white;
   background-color: #3882f6;
