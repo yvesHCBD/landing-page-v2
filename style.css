@@ -10,8 +10,51 @@ body {
 .quote-container,
 .sign-up-container {
   display: flex;
+  justify-content: space-evenly;
+  height: 400px;
+}
+
+.top-header-container {
+  display: flex;
+  color: white;
   justify-content: space-between;
-  height: 300px;
+  padding-top: 16px;
+  margin-left: 128px;
+  margin-right: 128px;
+}
+
+.awesome-section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 200px;
+  width: 450px;
+  margin-left: 128px;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  color: #f9faf8;
+  margin: 0;
+}
+
+.awesome-paragraph {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.sign-up {
+  border-radius: 4px;
+  padding: 2px;
+  width: 81px;
+  color: white;
+  background-color: #3882f6;
+  border: none;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .information-container {
@@ -34,4 +77,15 @@ body {
   color: white;
   background-color: #1f2937;
   font-size: 12px;
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+  list-style-type: none;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
 }
